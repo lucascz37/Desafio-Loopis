@@ -1,0 +1,67 @@
+h1{
+    text-align: center;
+    margin: 2% 0 3% 0;
+}
+
+.main-container{
+    display: flex;
+    flex-direction: column;
+}
+
+.main-container p{
+    color: #ff6b35;
+    padding-left: 3%;
+}
+
+.image-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 2.5%;
+    height: 100%;
+}
+
+.logo-img{
+    width: 30vw;
+    height: 80%;
+    margin: 0% 0 5% 0;
+}
+
+.image-container p{
+    font: 500 1.2vw Roboto;
+    color: #000;
+    padding: 0;
+}
+
+.user-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    list-style: none;
+    min-height: 59vh;
+}
+
+.user-container .user{
+    margin: 3%;
+    min-width: 20%;
+    min-height: 20%;
+}
+
+.register{
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    padding-right: 5%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+.register-button{
+    max-width: 20%;
+    max-height: 20%;
+    margin-left: 2%;
+    padding: 2% 5%;
+    border-radius: 5px;
+}
