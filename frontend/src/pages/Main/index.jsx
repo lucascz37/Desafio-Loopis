@@ -37,7 +37,7 @@ export default function () {
     const drawn = cards.map((user) => {
       let randomUser = Math.floor(Math.random() * max);
       sendMail = user.email.includes('@');
-      while (cards[randomUser].name === user.name && !choosed.includes(randomUser)) {
+      while (cards[randomUser].name === user.name || choosed.includes(randomUser)) {
         randomUser = Math.floor(Math.random() * max);
       }
       choosed.push(randomUser);
@@ -45,8 +45,12 @@ export default function () {
     });
 
     if (sendMail) {
-      await api.post('/', { data: drawn });
-      SetSentEmail(true);
+      try {
+        await api.post('/', { data: drawn });
+        SetSentEmail(true);
+      } catch (err) {
+        SetErrorEmail(true);
+      }
     } else {
       SetDrawResult(drawn);
       SetDisplayDraw(true);
@@ -109,8 +113,8 @@ export default function () {
       <WarningModal
         open={errorEmail}
         setOpen={SetErrorEmail}
-        text="Sorteiro realizado com sucesso!"
-        subtext="Os participantes serão notificados por email."
+        text="Error ao enviar emails!"
+        subtext="Convém conferir os mesmos"
       />
     </div>
   );

@@ -42,7 +42,7 @@ export default function WarningModal({
           <ul>
             {list.map((user) => (
               <li key={user.name}>
-                {user.name}-{user.amigo}
+                {user.name} - {user.amigo}
               </li>
             ))}
           </ul>

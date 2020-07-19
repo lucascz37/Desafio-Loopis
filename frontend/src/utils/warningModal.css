@@ -23,12 +23,30 @@
   max-height: 1.5em;
   font-size: 2vw;
   font-family: Roboto;
-  font-weight: bold;
+  font-weight: 500;
+}
+
+.warning-container div small{
+  max-height: 1.5em;
+  font-size: 1.2vw;
+  font-family: Roboto;
+  font-weight: 300;
+
 }
 
 .warning-container div ul{
   list-style: none;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 2vh;
   overflow: auto;
+}
+
+.warning-container div ul li{
+  max-height: 1.5em;
+  font-family: Roboto;
+  margin: 2vh 0;
+  font-weight: bold;
 }
 
 .warning-container div button{

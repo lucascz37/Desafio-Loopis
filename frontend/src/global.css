@@ -24,8 +24,9 @@ button{
     background-color: #004e89;
     border-radius: 5px;
     font: 500 1.5vw Roboto;
+    transition-duration: 0.2s;
 }
 
 button:hover{
-    opacity: 0.5;
+    opacity: 0.8;
 }
