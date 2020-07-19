@@ -7,30 +7,33 @@
 }
 
 .info{
-    margin-left: 30px;
+    margin-left: 10%;
+    margin-top: 2vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .info h2{
     font-family: Roboto;
-    font-weight: 500;
     font-size: 1.5em;
-    margin-top: 30px;
-    margin-bottom: 30px;
+    font-weight: 500;
+    color:#000;
 }
 
 .info p{
     font-family: Roboto;
     font-weight: 300;
-    margin-bottom: 30px;
+    font-size: 1em;
     color: #000;
+    margin-bottom: 08vh;
 }
 
 .icons{
-    display: flex;
+    display: flex;    
     flex-direction: row;
-    margin-top: 30px;
-    margin-right: 40px;
-    margin-left: 40px;
+    margin-top: 3vh;
+    margin-right: 3vw;
 }
 
 .delete{

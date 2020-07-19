@@ -1,16 +1,19 @@
 h1{
     text-align: center;
-    margin: 2% 0 3% 0;
+    margin-top: 2%;
+    max-height: 20%;
 }
-
 .main-container{
+
     display: flex;
     flex-direction: column;
+    height: 100%;
 }
 
 .main-container p{
     color: #ff6b35;
     padding-left: 3%;
+    max-height: 5%;
 }
 
 .image-container{
@@ -18,19 +21,17 @@ h1{
     flex-direction: column;
     justify-content: center;
     margin-bottom: 2.5%;
-    height: 100%;
 }
 
 .logo-img{
-    width: 30vw;
+    width: 23vw;
     height: 80%;
-    margin: 0% 0 5% 0;
 }
 
 .image-container p{
     font: 500 1.2vw Roboto;
-    color: #000;
     padding: 0;
+    color: #000;
 }
 
 .user-container{
@@ -39,13 +40,13 @@ h1{
     justify-content: center;
     flex-wrap: wrap;
     list-style: none;
-    min-height: 59vh;
+    overflow: auto;
 }
 
 .user-container .user{
-    margin: 3%;
-    min-width: 20%;
-    min-height: 20%;
+    padding: 2vh 2vw;
+    min-width: 32vw;
+    max-height: 25vh;
 }
 
 .register{
@@ -54,14 +55,12 @@ h1{
     flex-direction: row;
     flex-wrap: nowrap;
     padding-right: 5%;
+    max-height: 10vh;
     margin-top: 2%;
     margin-bottom: 2%;
 }
 
 .register-button{
-    max-width: 20%;
-    max-height: 20%;
-    margin-left: 2%;
-    padding: 2% 5%;
-    border-radius: 5px;
+    padding: 0% 5%;
+    margin-right: 2%;
 }

@@ -1,0 +1,41 @@
+.warning-container{
+  text-align: center;
+  max-height: 1.5em;
+}
+
+.warning-container div{
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 0 20vw;
+  height: 50vh;
+  border-radius: 5px;
+  margin-top: 25vh;
+}
+
+.warning-container div h2{
+  max-height: 1.5em;
+  margin-top: 3vh;
+}
+
+.warning-container div p{
+  max-height: 1.5em;
+  font-size: 2vw;
+  font-family: Roboto;
+  font-weight: bold;
+}
+
+.warning-container div ul{
+  list-style: none;
+  overflow: auto;
+}
+
+.warning-container div button{
+  height: 20%;
+  margin: 0 23vw 3vh 23vw;
+}
+
+.ReactModalPortal{
+  height: 0%;
+}
