@@ -10,8 +10,8 @@ routes.post("/", (request, response) => {
       from: "noreply",
       to: email.email,
       subject: "Sorteio",
-      text: `Olá, ${email.nome}! Você sorteou: ${email.amigo} como amigo secreto.`,
-      html: `<b>Olá, ${email.nome}! Você sorteou ${email.amigo} como amigo secreto.</b>`,
+      text: `Olá, ${email.name}! Você sorteou: ${email.amigo} como amigo secreto.`,
+      html: `<b>Olá, ${email.name}! Você sorteou ${email.amigo} como amigo secreto.</b>`,
     });
   });
 
