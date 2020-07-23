@@ -26,17 +26,17 @@ $ yarn start
 {
     "data": [
 	{
-        "nome": "exemplo",
+        "name": "exemplo",
 	"email": "email@exemplo.com",
 	"amigo": "exemplo2",
  	},
 	{
-	"nome": "exemplo2",
+	"name": "exemplo2",
 	"email": "email2@exemplo.com",
 	"amigo": "exemplo3"
  	},
 	{
-	"nome": "exemplo3",
+	"name": "exemplo3",
 	"email": "email2@exemplo.com",
 	"amigo": "exemplo"
  	}
