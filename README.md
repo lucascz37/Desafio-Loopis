@@ -4,12 +4,12 @@ O projeto consiste em desenvolver um software para sortear amigo secreto e envia
 
 ## Requisitos
 
--[x] cadastrar pessoas com nome e email
--[x] atualizar informações das pessoas
--[x] listar pessoas registradas
--[x] remover informações das pessoas
--[x] sortear entre todas as pessoas registradas um amigo secreto e exibir o resultado do sorteio
--[x] enviar o resultado individual por email (opcional)
+- [x] cadastrar pessoas com nome e email
+- [x] atualizar informações das pessoas
+- [x] listar pessoas registradas
+- [x] remover informações das pessoas
+- [x] sortear entre todas as pessoas registradas um amigo secreto e exibir o resultado do sorteio
+- [x] enviar o resultado individual por email (opcional)
 
 ## Executar
 Para instalar dependências:
@@ -27,17 +27,17 @@ $ yarn start
     "data": [
 	{
         "nome": "exemplo",
-	"email": "email@exemplo.com"
-	"amigo": "exemplo2"
+	"email": "email@exemplo.com",
+	"amigo": "exemplo2",
  	},
 	{
 	"nome": "exemplo2",
-	"email": "email2@exemplo.com"
+	"email": "email2@exemplo.com",
 	"amigo": "exemplo3"
  	},
 	{
 	"nome": "exemplo3",
-	"email": "email2@exemplo.com"
+	"email": "email2@exemplo.com",
 	"amigo": "exemplo"
  	}
     ]
